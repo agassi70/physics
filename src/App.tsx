@@ -1,26 +1,24 @@
 import React from 'react';
-import Main from "./features/Main/Main";
-import Header from "./features/Header/Header";
-import {ThemeProvider, createMuiTheme} from '@material-ui/core/styles';
+import Layout from "layout/Layout";
+import Header from "features/Header";
+import {CssBaseline, ThemeProvider, Container} from '@material-ui/core'
+import theme from './theme'
+import {BrowserRouter} from "react-router-dom";
+import 'styles/styles.scss'
 
-const theme = createMuiTheme({
-    typography: {
-        fontFamily: [
-            'Work Sans',
-            'sans-serif',
-        ].join(','),
-    },
-});
 
 function App() {
-    return (
-        <ThemeProvider theme={theme}>
-            <div className="wrapper">
-                <Header/>
-                <Main/>
-            </div>
-        </ThemeProvider>
-    );
+  return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline/>
+      <Container fixed disableGutters>
+        <BrowserRouter>
+          <Header/>
+          <Layout/>
+        </BrowserRouter>
+      </Container>
+    </ThemeProvider>
+  );
 }
 
 export default App;

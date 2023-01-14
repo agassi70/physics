@@ -2,38 +2,19 @@ $mainColor : #906E5F;
 
 body {
   margin: 0;
+  padding: 0;
   display: block;
   font-family: 'Work Sans', sans-serif;
+  background-color: white;
 }
 
-.aside {
-  background-color: aquamarine;
-  float: left;
+.grid-container {
+  box-shadow: 0px 2px 16px rgba(0, 46, 79, 0.1);
+  margin-top: 2px;
+  border-radius: 4px;
+  padding: 0 20px;
 }
 
-.button-menu {
-  display: inline-block;
-}
-
-.header {
-  background: rgb(255,252,210);
-  background: linear-gradient(0deg, rgba(255,252,210,1) 0%, rgba(181,195,255,1) 100%);
-  //padding-top: 2%;
-  height: 30%;
-  width: 100%;
-  overflow: hidden;
-}
-
-.header-title {
-  //display: inline-block;
-  font-size: 24px;
-  text-align: center;
-}
-
-.header-image {
-  display: inline-block;
-  float: left;
-}
 .header-menu {
   display: inline-block;
   float: right;
@@ -51,8 +32,7 @@ body {
   width: 100%;
 }
 
-.wrapper {
-  overflow: auto;
-  height: 100%;
-  width: 100%;
+.horizontal-row {
+  display: flex;
+  align-items: center;
 }
