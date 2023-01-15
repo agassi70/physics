@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/agassi70/yermakov.github.io/static/css/main.6be91130.css",
+    "main.js": "/agassi70/yermakov.github.io/static/js/main.dbdeaf78.js",
+    "static/css/865.f1562cf2.chunk.css": "/agassi70/yermakov.github.io/static/css/865.f1562cf2.chunk.css",
+    "static/js/865.2e9dd0a5.chunk.js": "/agassi70/yermakov.github.io/static/js/865.2e9dd0a5.chunk.js",
+    "static/js/823.a2954ac6.chunk.js": "/agassi70/yermakov.github.io/static/js/823.a2954ac6.chunk.js",
+    "static/js/429.4b6365ed.chunk.js": "/agassi70/yermakov.github.io/static/js/429.4b6365ed.chunk.js",
+    "static/js/787.ac8fdaaa.chunk.js": "/agassi70/yermakov.github.io/static/js/787.ac8fdaaa.chunk.js",
+    "static/js/587.82084cfa.chunk.js": "/agassi70/yermakov.github.io/static/js/587.82084cfa.chunk.js",
+    "static/js/62.47b3347d.chunk.js": "/agassi70/yermakov.github.io/static/js/62.47b3347d.chunk.js",
+    "static/media/2021_PRX.png": "/agassi70/yermakov.github.io/static/media/2021_PRX.8f677de76765811846c5.png",
+    "static/media/yermakov_avatar.jpg": "/agassi70/yermakov.github.io/static/media/yermakov_avatar.d482c69a3f489e4200c1.jpg",
+    "static/media/banner2.png": "/agassi70/yermakov.github.io/static/media/banner2.89b29d97fd15f73ae535.png",
+    "static/media/img3.jpeg": "/agassi70/yermakov.github.io/static/media/img3.be3f7edcff5f92dbdd5b.jpeg",
+    "static/media/slick.svg": "/agassi70/yermakov.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/agassi70/yermakov.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/agassi70/yermakov.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/agassi70/yermakov.github.io/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/agassi70/yermakov.github.io/index.html",
+    "main.6be91130.css.map": "/agassi70/yermakov.github.io/static/css/main.6be91130.css.map",
+    "main.dbdeaf78.js.map": "/agassi70/yermakov.github.io/static/js/main.dbdeaf78.js.map",
+    "865.f1562cf2.chunk.css.map": "/agassi70/yermakov.github.io/static/css/865.f1562cf2.chunk.css.map",
+    "865.2e9dd0a5.chunk.js.map": "/agassi70/yermakov.github.io/static/js/865.2e9dd0a5.chunk.js.map",
+    "823.a2954ac6.chunk.js.map": "/agassi70/yermakov.github.io/static/js/823.a2954ac6.chunk.js.map",
+    "429.4b6365ed.chunk.js.map": "/agassi70/yermakov.github.io/static/js/429.4b6365ed.chunk.js.map",
+    "787.ac8fdaaa.chunk.js.map": "/agassi70/yermakov.github.io/static/js/787.ac8fdaaa.chunk.js.map",
+    "587.82084cfa.chunk.js.map": "/agassi70/yermakov.github.io/static/js/587.82084cfa.chunk.js.map",
+    "62.47b3347d.chunk.js.map": "/agassi70/yermakov.github.io/static/js/62.47b3347d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6be91130.css",
+    "static/js/main.dbdeaf78.js"
+  ]
+}
