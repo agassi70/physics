@@ -24,6 +24,7 @@ interface IPublication {
   pdf: string;
   bibtex?: string;
   comment?: string;
+  abstract?: string;
 }
 
 interface IPublicsByYear {
@@ -39,6 +40,7 @@ const publications: IPublication[] = [
     link: 'https://doi.org/10.1109/JLT.2022.3226814',
     year: 2023,
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: 'Vortex dynamics and structured darkness of Laguerre-Gaussian beams transmitted through q-plates under weak axial-asymmetric incidence',
@@ -48,6 +50,7 @@ const publications: IPublication[] = [
     issues: '[Early Access]',
     link: 'https://doi.org/10.1109/JLT.2022.3226814',
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: 'Manipulation over surface waves in bilayer hyperbolic metasurfaces: topological transition and multidirectional canalization',
@@ -57,6 +60,7 @@ const publications: IPublication[] = [
     year: 2022,
     link: 'https://doi.org/10.1109/LMWC.2022.3215016',
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: 'On anomalous optical beam shifts at near-normal incidence',
@@ -66,6 +70,7 @@ const publications: IPublication[] = [
     year: 2022,
     link: 'https://doi.org/10.1063/5.0111203',
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: 'Surface waves on self-complementary metasurfaces: all-frequency hyperbolicity, extreme canalization, and TE-TM polarization degeneracy',
@@ -75,6 +80,7 @@ const publications: IPublication[] = [
     year: 2021,
     link: 'https://doi.org/10.1103/PhysRevX.11.031038',
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: 'Nanostructure-empowered efficient coupling of light into optical fibers at extraordinarily large angles',
@@ -85,6 +91,7 @@ const publications: IPublication[] = [
     link: 'https://doi.org/10.1021/acsphotonics.0c01078',
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
     comment: 'Front Cover of October 2019 issue, Top-30 optics research in 2020',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: 'Photonic spin Hall effect: contribution of polarization mixing caused by anisotropys',
@@ -95,6 +102,7 @@ const publications: IPublication[] = [
     link: 'https://doi.org/10.3390/quantum2040034',
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
     comment: 'Special Issue, Top-10 most cited',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: 'Broadband polarization degeneracy of guided waves in subwavelength structured ZnO pattern',
@@ -105,6 +113,7 @@ const publications: IPublication[] = [
     link: 'https://doi.org/10.1109/JSTQE.2018.2886306',
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
     comment: 'Invited article',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: 'Experimental observation of hybrid TE-TM polarized surface waves supported by a hyperbolic metasurface',
@@ -115,6 +124,7 @@ const publications: IPublication[] = [
     link: 'https://doi.org/10.1103/PhysRevB.98.195404',
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
     comment: 'Kaleidoscope PRB, November 2018',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: 'Effective surface conductivity of optical hyperbolic metasurfaces: from far-field characterization to surface wave analysis',
@@ -124,6 +134,7 @@ const publications: IPublication[] = [
     year: 2018,
     link: 'https://doi.org/10.1038/s41598-018-32479-y',
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: 'Experimental observation of Dyakonov plasmons in the mid-infrared',
@@ -133,6 +144,7 @@ const publications: IPublication[] = [
     year: 2018,
     link: 'https://doi.org/10.1134/S1063782618040279',
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: 'Polarization-resolved characterization of plasmon waves supported by an anisotropic metasurface',
@@ -142,6 +154,7 @@ const publications: IPublication[] = [
     year: 2017,
     link: 'https://doi.org/10.1364/OE.25.032631',
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: 'Spin control of light with hyperbolic metasurfaces',
@@ -151,6 +164,7 @@ const publications: IPublication[] = [
     year: 2016,
     link: 'https://doi.org/10.1103/PhysRevB.94.075446',
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: 'Hybrid waves localized at hyperbolic metasurface',
@@ -160,7 +174,8 @@ const publications: IPublication[] = [
     year: 2015,
     link: '91(23), 235423',
     pdf: 'Mazanov_et_al_2022_On_anomalous_optical_beam_shifts_at_near_normal.pdf',
-    comment: 'Editors\' Suggestions'
+    comment: 'Editors\' Suggestions',
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
 ]
 
@@ -202,6 +217,10 @@ export default function Publications() {
             id={key}
           >
             <Box fontWeight={600}>
+              <Typography variant={"h6"} color={"primary"}>
+                {publication.journal}{': '}
+              </Typography>
+              <Box height={"6px"}/>
               <Typography variant={"h5"} color={"textPrimary"}>
                 {publication.title}
               </Typography>
@@ -209,54 +228,41 @@ export default function Publications() {
           </AccordionSummary>
           <AccordionDetails>
             <Box>
-              <Box display={"flex"} py={0.25}>
-                <Typography variant={"subtitle2"} color={"textSecondary"} style={{fontWeight: 600}}>
-                  {"Journal:"}
-                </Typography>
-                <Box width={"5px"}/>
-                <Typography variant={"subtitle2"} color={"textSecondary"}>
-                  {publication.journal}
-                </Typography>
-              </Box>
-              <Box display={"flex"} py={0.25}>
-                <Typography variant={"subtitle2"} color={"textSecondary"} style={{fontWeight: 600}}>
-                  Authors:
-                </Typography>
-                <Box width={"5px"}/>
+              <Box py={0.5} fontWeight={600}>
                 <Typography variant={"subtitle2"} color={"textSecondary"}>
                   {publication.authors}
                 </Typography>
               </Box>
-              {publication.issues && (
-                <Box display={"flex"} py={0.25}>
-                  <Typography variant={"subtitle2"} color={"textSecondary"} style={{fontWeight: 600}}>
-                    {"Status:"}
-                  </Typography>
-                  <Box width={"5px"}/>
-                  <Typography variant={"subtitle2"} color={"textSecondary"}>
-                    {publication.issues}
-                  </Typography>
-                </Box>
-              )}
-              {publication.pages && (
-                <Box display={"flex"} py={0.25}>
-                  <Typography variant={"subtitle2"} color={"textSecondary"} style={{fontWeight: 600}}>
-                    {"Pages:"}
-                  </Typography>
-                  <Box width={"5px"}/>
-                  <Typography variant={"subtitle2"} color={"textSecondary"}>
-                    {publication.pages}
-                  </Typography>
-                </Box>
-              )}
+              <Box py={0.5} fontWeight={600}>
+                <Typography variant={"subtitle2"} color={"textSecondary"}>
+                  {publication.journal}{", "}{publication.pages || publication.issues}
+                </Typography>
+              </Box>
               {publication.comment && (
-                <Box display={"flex"} py={0.25}>
-                  <Typography variant={"subtitle2"} color={"textSecondary"} style={{fontWeight: 600}}>
-                    {"Comment:"}
+                <Box py={0.5}>
+                  <Typography
+                    variant={"subtitle2"}
+                    color={"textSecondary"}
+                    style={{fontWeight: 600, display: "inline"}}
+                  >
+                    {"Comment: "}
                   </Typography>
-                  <Box width={"5px"}/>
-                  <Typography variant={"subtitle2"} color={"textSecondary"}>
+                  <Typography variant={"subtitle2"} color={"textSecondary"} style={{display: "inline"}}>
                     {publication.comment}
+                  </Typography>
+                </Box>
+              )}
+              {publication.abstract && (
+                <Box py={0.5}>
+                  <Typography
+                    variant={"subtitle2"}
+                    color={"textSecondary"}
+                    style={{fontWeight: 600, display: "inline"}}
+                  >
+                    {"Abstract: "}
+                  </Typography>
+                  <Typography variant={"subtitle2"} color={"textSecondary"} style={{fontWeight: 500, display: "inline"}}>
+                    {publication.abstract}
                   </Typography>
                 </Box>
               )}
@@ -271,15 +277,6 @@ export default function Publications() {
             <Box width={"14px"}/>
             <Button variant="contained" size={"small"} color="primary" href={process.env.PUBLIC_URL + '/pdf/' + publication.pdf} target={"_blank"}>
               PDF
-            </Button>
-          </Box>
-          <Box display={"flex"} mt={2}>
-            <Button variant="contained" color="primary" href={publication.link} target={"_blank"}>
-              Cite
-            </Button>
-            <Box width={"14px"}/>
-            <Button variant="contained" color="primary">
-              BibT
             </Button>
           </Box>
         </Box>

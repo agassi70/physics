@@ -103,7 +103,7 @@ export default function Awards() {
   return (
     <Grid item xs={12}>
       <Box pb={3}>
-        {Object.keys(awards).map(year => (
+        {Object.keys(awards).sort((a, b) => +b - +a).map(year => (
           <Box key={year}>
             <Box pt={2.5} pb={1} fontWeight={600}>
               <Typography variant={"h6"} color={"textPrimary"}>
